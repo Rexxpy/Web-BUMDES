@@ -1,0 +1,26 @@
+body{
+  height: calc(100vh - 70px);
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.sejarah{
+	margin-top: 120px;
+  transition: all 0.5s;
+}
+
+.sejarah1{
+	animation: fadeInLeft; 
+  animation-duration: 1s; 
+}
+.sejarah2{
+	animation: fadeInRight; 
+  animation-duration: 1s; 
+}
+
+.visi{
+  margin-top: 100px;
+}
+
+
